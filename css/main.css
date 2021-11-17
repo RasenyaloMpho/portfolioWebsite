@@ -46,6 +46,18 @@ a{
 }
 
 
+/*Below here are the stykes for the section of the website*/
+
+.About-me{
+    width:86%;
+    margin:20px auto 20px auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.About-me .highlighter{
+    color:Yellow;
+}
 
 
 
