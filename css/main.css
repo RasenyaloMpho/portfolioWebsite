@@ -11,12 +11,24 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin:auto;
-    padding: 10px;
-    background-color: red;
+    margin-top: 20px !important;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
+    color:#dadada;
+}
+.btn{
+    background-color: rgb(19, 221, 46);
+    border: none;
+    padding:25px;
+    margin-top:6px;
+    color: #262626;
+    border-radius: 72px;
+    box-sizing: border-box;
+
 }
 .fitContent{
     width:fit-content;
@@ -24,7 +36,6 @@ a{
     display: inline-block;
     font-size:20px;
     height:fit-content;
-    border: 1px solid yellow;
     color: #dadada;
   
 }
@@ -39,6 +50,7 @@ a{
 }
 .navLinks ul{
     list-style:none;
+    margin-top:10px;
 }
 .navLinks ul li{
     display: inline;
@@ -52,31 +64,20 @@ a{
     width:86%;
     margin:20px auto 20px auto;
     padding: 5px;
+    padding-right:10% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     box-sizing: border-box;
+}
+.description{
+    width:65%;
+    display: inline-block;
 }
 
 .About-me .highlighter{
     color:Yellow;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .elementsCenter{
     width:fit-content;
     margin:10px auto 10px auto;   
