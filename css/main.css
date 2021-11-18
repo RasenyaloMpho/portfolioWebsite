@@ -6,6 +6,7 @@ body{
     background-color:rgb(172, 33, 45);
    
 }
+
 .navClass{
     width:80%;
     display: flex;
@@ -128,5 +129,30 @@ a{
 }
 img[class="lucid"]{
     border-radius:10px;
+}
 
+#main-footer{
+    border: 1px solid blue;
+    padding:10px;
+    color:#dadada;
+    text-align: center;
+}
+
+.container ul{
+    list-style: none;
+    font-size: 45px;
+}
+.bigger{
+    font-size: 35px;
+}
+.contact{
+    color: #dadada;
+    text-align: center;
+
+}
+.container ul li ul li{
+    display: inline;
+    margin: 10px;
+    font-size: 40px;
+    
 }
