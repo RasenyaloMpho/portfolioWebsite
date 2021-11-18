@@ -96,8 +96,37 @@ a{
 .About-me .highlighter{
     color:Yellow;
 }
+.container{
+    width:80%;
+    box-sizing: border-box;
+    padding:10px;
+    height:100%;
+    
+}
+.container h1{ 
+  text-align: center;
+  color:#dadada;
+  margin-bottom: 30px;
+}
 .elementsCenter{
     width:fit-content;
     margin:10px auto 10px auto; 
     color: #dadada;  
+}
+.grid{
+    display: grid;
+    column-gap: 100px;
+    row-gap: 20px;
+    grid-template-columns: repeat(6,90px);
+    grid-auto-rows: 100px;
+    padding:10px;
+    box-sizing:border-box;
+}
+.container .grid .skillsImages img{
+    width:100%;
+
+}
+img[class="lucid"]{
+    border-radius:10px;
+
 }
