@@ -34,6 +34,11 @@ a{
     box-sizing: border-box;
 
 }
+
+.btn:hover{
+    background-color:rgb(24, 201, 207);
+    border:1px solid black;
+}
 .fitContent{
     width:fit-content;
     box-sizing: border-box;
