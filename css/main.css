@@ -1,124 +1,66 @@
-*{
-    margin:0;
-    padding:0;
-}
-body{
-    background-color:rgb(172, 33, 45);
-   
-}
-
-.navClass{
-    width:80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px !important;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom:40px;
-    box-sizing: border-box;
-}
-
-a{
-    text-decoration: none;
-    color:#dadada;
-}
 .btn{
     background-color: #262626/*rgb(19, 221, 46)*/;
     border: none;
-    padding:25px;
+    padding:15px 40px;
     margin-top:6px;
     font-size:20px;
-    color: rgb(19, 221, 46);
+    color: #fff;
     border-radius: 72px;
     box-sizing: border-box;
+}
+.details{
+    padding-top:10px;
+}
+.aboutclass h1{
+    font-size: 65px;
 
 }
+.aboutclass h2{
+    font-size: 33px;
 
-.btn:hover{
-    background-color:rgb(24, 201, 207);
-    border:1px solid black;
 }
-.fitContent{
-    width:fit-content;
-    box-sizing: border-box;
-    display: inline-block;
-    font-size:20px;
-    height:fit-content;
-    color: #dadada;
-  
+img{
+    width:100%;
 }
-.logo{
-    padding:5px;
-    margin:5px;
+img[class="profileImage"]{
+    width:100%;
+    padding-top:20px;
+    border-radius: 50%;
 }
-.myLogo
-{
-    display:inline;
-    padding:3px;
+#about .heading{
+    padding-top:25px;
 }
-.navLinks ul{
-    list-style:none;
-    margin-top:10px;
-}
-.navLinks ul li{
-    display: inline;
-    margin: 30px;
-}
-
-
-/*Below here are the stykes for the section of the website*/
-
-.About-me{
-    width:86%;
-    margin:20px auto 30px auto;
-    font-size:20px;
-    padding: 5px;
-    height:80vh;
-    padding-right:10% !important;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    box-sizing: border-box;
-}
-.About-me h1{
-    font-size: 60px;
-}
-.description{
-    width:65%;
-}
-.description h2{
-    font-size: 45px;
-    display: inline-block;
-}
-.About-me .description .someText h5{
-    display: inline-block;
-    font-size: 20px;
-    line-height: 1.5em;
+a{
+    text-decoration: none;
     color: #fff;
-    font-weight: lighter;
+}
+a[class="btn"]:hover{
+    background-color: #fff;
+    border: 1px solid #000;
+    color:#000;
+}
+a[class="nav-link"]{
+    font-size: 25px;
+}
+#about h1{
+    font-weight: 700;
+    clear: both;
+}
+a[class="nav-links"]{
+    font-size: 20px;
+}
+#about h5{
+    font-weight:300;
+    line-height: 2rem;
+}
+#about{
+    margin-top:10px;
+    width: 100%;
+    height: 100vh;
 }
 
-.About-me .highlighter{
-    color:rgb(24, 201, 207);
-}
-.container{
-    width:80%;
-    box-sizing: border-box;
-    padding:10px;
-    height:100%;
-    
-}
-.container h1{ 
-  text-align: center;
-  color:#dadada;
-  margin-bottom: 30px;
-}
-.elementsCenter{
-    width:fit-content;
-    margin:10px auto 10px auto; 
-    color: #dadada;  
-}
+/** grid */
+
 .grid{
     display: grid;
     column-gap: 100px;
@@ -128,47 +70,25 @@ a{
     grid-template-columns: repeat(auto-fill,minmax(50px,1fr));
     grid-auto-rows: 50px;
     padding:10px;
-    box-sizing:border-box;
-
-}
-.container .grid .skillsImages img{
     width:100%;
-
+    box-sizing:border-box;
 }
-img[class="lucid"]{
-    border-radius:10px;
+p{
+    margin:0;
+    padding: 0;
 }
-.height{
-    height:100vh;
+ul{
+    list-style: none;  
 }
-
-#main-footer{
-    border: 1px solid blue;
-    padding:10px;
-    color:#dadada;
-    text-align: center;
-}
-.projs{
-    text-align: center;
-    height: 100vh;
-
-}
-.container ul{
-    list-style: none;
-    font-size: 45px;
-}
-.bigger{
-    font-size: 35px;
-}
-.contact{
-    color: #dadada;
-    text-align: center;
-    margin-top: 0px!important;
-
-}
-.container ul li ul li{
+ul li{
     display: inline;
-    margin: 10px;
     font-size: 40px;
-    
+}
+@media (max-width:700px) {
+    img[class="profileImage"]{display: none;}
+    #about{
+        text-align: center;
+        width:100%;
+    }
+
 }
