@@ -8,6 +8,12 @@
     border-radius: 72px;
     box-sizing: border-box;
 }
+#middleText{
+    color:#35D5C8;
+}
+#aaaa{
+    color:white;
+}
 ::-webkit-scrollbar {
     width: 10px;
 
