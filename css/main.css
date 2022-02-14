@@ -1,10 +1,10 @@
 .btn{
-    background-color: #35D5C8/*rgb(19, 221, 46)*/;
-    border: none;
+    background-color: transparent/*rgb(19, 221, 46)*/;
+    border: 1px solid #25D5C8;
     padding:15px 40px;
     margin-top:6px;
     font-size:20px;
-    color: grey;
+    color: #ddd;
     border-radius: 72px;
     box-sizing: border-box;
 }
@@ -26,7 +26,7 @@ h2 #breaker{
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #aaa;
+    background: #35D5C8;
     opacity: 0.3;
     border-radius: 5px;
 }
@@ -91,9 +91,10 @@ a{
     color: #fff;
 }
 a[class="btn"]:hover{
-    background-color: #fff;
-    border: 1px solid #000;
+    background-color: #35D5C8;
+    border: 1px solid #008080;
     color:#000;
+    opacity:0.7;
 }
 #about h1{
     font-weight: 700;
