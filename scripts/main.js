@@ -28,7 +28,7 @@ const sections = document.querySelectorAll('.contentfit')
 
 sections.forEach((item) => {
     if (screen.width<=700){
-        item.style.height="fit-content"
+        item.style.height="fit-content";
     }
     else{
         item.style.height="100vh";
