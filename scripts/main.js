@@ -23,3 +23,15 @@ const menuToggle = document.getElementById('navbarSupportedContent')
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
+
+const sections = document.querySelectorAll('.contentfit')
+
+sections.forEach((item) => {
+    if (screen.width<=700){
+        item.style.height="fit-content"
+    }
+    else{
+        item.style.height="100vh";
+    }
+    
+})
