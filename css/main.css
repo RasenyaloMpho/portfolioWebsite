@@ -1,12 +1,15 @@
 .btn{
-    background-color: #262626/*rgb(19, 221, 46)*/;
+    background-color: #35D5C8/*rgb(19, 221, 46)*/;
     border: none;
     padding:15px 40px;
     margin-top:6px;
     font-size:20px;
-    color: #fff;
+    color: grey;
     border-radius: 72px;
     box-sizing: border-box;
+}
+h2 #breaker{
+    display: none;
 }
 #middleText{
     color:#35D5C8;
@@ -30,10 +33,13 @@
 .focusclass:focus
  {
        outline: none !important;
-       border:1px solid white; 
-       box-shadow: 0 0 10px white/*#719ECE;*/ }
+       border:1px solid #008080; 
+       box-shadow: 0 0 10px #35D5C8;/*#719ECE;*/ 
+       caret-color:#35D5C8;   
+}
+       
 ul li a:hover{
-    color:#aaa;
+    color:#35D5C8;
 }
 .headings{
     margin-top: 60px; 
@@ -136,6 +142,7 @@ a[class="nav-link"]{
 }
 ::placeholder{
     color:white;
+    opacity: 0.3;
 }    
 #projects{
     width: 100%;
@@ -166,10 +173,11 @@ ul li{
     font-size: 40px;
 }
 .submitbtn{
-    background-color: #262626;
+    outline:none;
+    background-color: #35D5C8;
     padding:10px;
-    color:#fff;
-    border:0.5px solid #fff;
+    color:#000;
+    border:0.5px solid #008080;
 
     border-radius: 5px;
 }
@@ -189,6 +197,9 @@ ul li{
             margin:15px 0px 0px 0px ;
             width:100%;
         }
+    h2 #breaker{
+        display: block;
+    }
 }
 
 @media only screen 
