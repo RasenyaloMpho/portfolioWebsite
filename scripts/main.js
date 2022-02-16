@@ -34,3 +34,18 @@ sections.forEach((item) => {
     }
     
 })
+
+
+const header = document.getElementById('navi');
+
+window.onscroll = function() {
+    const top = window.scrollY;
+    if(top >=110) {
+        header.style.backgroundColor="#aaa";        
+        header.style.zIndex="1";
+
+    }
+    else {
+        header.style.backgroundColor="grey";
+    }
+}
