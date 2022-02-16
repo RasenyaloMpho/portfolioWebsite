@@ -1,7 +1,3 @@
-#navbarSupportedContent{
-    width: 105%;
-    background-color: #aaa;
-}
 .btn{
     background-color: transparent/*rgb(19, 221, 46)*/;
     border: 1px solid #25D5C8;
@@ -204,6 +200,10 @@ ul li{
         }
     h2 #breaker{
         display: block;
+    }
+    .navbar-dark{
+    
+        background-color: #aaa;
     }
 }
 
