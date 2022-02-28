@@ -47,6 +47,6 @@ window.onscroll = function() {
 
     }
     else {
-        header.style.backgroundColor="grey";
+        header.style.backgroundColor="transparent";
     }
 }
