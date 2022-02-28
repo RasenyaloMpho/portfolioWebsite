@@ -50,7 +50,7 @@ a[class="nav-li "]:hover{
     z-index: -1;
 }
 .greyback{
-    background-color: grey;
+    background-color: transparent;
 }
 .whitetext{
     color:white;
@@ -143,7 +143,7 @@ a[class="nav-link"]{
 }
 ::placeholder{
     color:white;
-    opacity: 0.3;
+    opacity: 0.8;
 }    
 #projects{
     width: 100%;
