@@ -18,12 +18,12 @@ h2 #breaker{
     color:white;
 }
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 6px;
 
   }
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 2px #ddd;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb {
     background: #ccc;
@@ -220,6 +220,9 @@ ul li{
     .navbar-dark{
     
         background-color: #aaa;
+    }
+    #contact-form{
+        margin-left: 0px;
     }
 }
 
